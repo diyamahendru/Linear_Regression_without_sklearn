@@ -27,3 +27,6 @@ k = m*r + c
 plt.plot(r, k)
 plt.scatter(x, y)
 plt.show
+
+print(metrics.mean_absolute_error(y_test, y_predict))
+
